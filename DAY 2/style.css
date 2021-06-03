@@ -1,0 +1,23 @@
+body{
+    background-color: orange;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKb3aLrTJZyWPUrlNizHmo-YlmelHiYlO-TiB3JtCpYQ1-Wh4E7GOjPWs5MeBxux6Nlj0&usqp=CAU");
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.format {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 28;
+}
+
+.bodytext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20;
+}
