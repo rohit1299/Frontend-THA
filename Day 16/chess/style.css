@@ -1,0 +1,51 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.chessBoard{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    border: 10px solid ;
+    padding: 5px;
+    box-shadow: 0 30px 20px 5px rgb(138, 135, 135);
+}
+
+.chess{
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    /* background: #000; */
+}
+.row1 .chess:nth-child(even){
+    background-color: black;
+}
+.row2 .chess:nth-child(odd){
+    background-color: black;
+}
+.row3 .chess:nth-child(even){
+    background-color: black;
+}
+.row4 .chess:nth-child(odd){
+    background-color: black;
+}
+.row5 .chess:nth-child(even){
+    background-color: black;
+}
+.row6 .chess:nth-child(odd){
+    background-color: black;
+}
+.row7 .chess:nth-child(even){
+    background-color: black;
+}
+.row8 .chess:nth-child(odd){
+    background-color: black;
+}
+
+
