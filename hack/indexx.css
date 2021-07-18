@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body
+{
+    background: #222;
+    min-height: 100vh;
+}
+
+section
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+section .side
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section .side#side1
+{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+
+}
+section .side#side2
+{
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+section .side img
+{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.container
+{
+    color: #fff;
+    padding: 50px;
+    margin-top: 200vh;
+    display:flex ;
+    flex-direction: column;
+}
+.container h1
+{
+    font-size: 3em;
+}
+
+.container p
+{
+    font-size: 1.2em;
+}
+.welcome p{
+    /* display: inline-block; */
+    padding: 10px;
+    width: 40%;
+    
+}
+.welcome img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+
+}
+.welcomecontent{
+    display: flex;
+    
+}
+.photo{
+/* height: 350px;
+width: 350px;
+border: 4px white solid;
+border-bottom: 30px white solid; */
+border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto;
+  transform: rotateZ(-5deg);
+  max-width: 500px;
+  width: 450px;
+  height: 350px;
+}
+.place{
+    margin-top: 100px;
+    display: flex;
+}
+.text{
+    margin: 10% 0 0 10%;
+    
+}
+.imgtext{
+margin: 10% 10% 0 0;
+}
+
+ .imgside{
+    transform: rotateZ(5deg);
+}
+
+.dots{
+    display: flex;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 420px;
+    right: 250px;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  #one{
+      background-color: aqua;
+  }
+  #two{
+    background-color: rgb(255, 187, 0);
+}
+#three{
+    background-color: rgb(0, 255, 21);
+}
+#four{
+    background-color: rgb(247, 0, 255);
+}
+  .hide{
+      display: none;
+  }
+
+  #btn1,#btn2,#btn3,#btn4{
+      width: 100px;
+      margin-left: 47%;
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid rgb(140, 140, 228);
+      border-radius: 5px;
+      font-size: 15px;
+      color: rgb(150, 150, 241);
+      background-color: #222;   
+  }
+  #btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover{
+      transform: scale(1.2);
+  }
+
+  
+
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
