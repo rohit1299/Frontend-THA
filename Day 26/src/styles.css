@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.App {
+  border: 2px solid;
+  max-width: 40vw;
+  min-height: 40vh;
+  padding: 40px;
+  border-radius: 10px;
+}
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  font-size: 18px;
+  padding: 5px;
+  width: 18vw;
+}
+
+.output {
+  font-size: 30px;
+  margin: 40px 0;
+}
