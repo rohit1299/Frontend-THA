@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(#fd80ef, #aaf5f4);
+}
+h2 {
+  text-align: center;
+  padding-top: 20%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+hr {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: static;
+}
+
+.inputBox {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.inputBox input,
+button {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.img {
+  width: 80px;
+  /* border: 1px solid; */
+}
+.card {
+  min-width: 80vh;
+  max-width: 80vh;
+  min-height: 70vh;
+  max-height: 70vh;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background-image: linear-gradient(#ad5389, #3b1053e3);
+  overflow: hidden;
+}
+.condition {
+  font-size: 20px;
+}
+.place {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.temperature {
+  float: right;
+}
+.temp {
+  font-size: 5rem;
+}
+nav {
+  margin: 15px 0;
+}
+nav li {
+  color: white;
+  margin-right: 15px;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.6;
+  text-decoration: none;
+}
+nav li:hover,
+li:visited,
+li:active,
+li:focus {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+.large {
+  font-size: 70px;
+}
+
+.column {
+  margin-top: 10px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-right: 10px;
+  color: white;
+  font-weight: 500;
+  opacity: 0.8;
+  /* border: 1px solid; */
+}
+.top {
+  margin-top: 5px;
+}
+.column_hourly {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  float: left;
+  text-align: center;
+  padding-right: 15px;
+  color: white;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.left {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+.left img {
+  height: 90px;
+  width: auto;
+}
+.left span {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.8;
+}
+.left div {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: white;
+  opacity: 0.8;
+}
+button:hover {
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.411);
+  cursor: pointer;
+}
+input,
+button {
+  color: white;
+
+  background: transparent;
+  border: 1px solid;
+}
+.right {
+  float: right;
+  padding: 10px;
+}
+.right div {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.8;
+}
+.white8 {
+  color: white;
+  opacity: 0.8;
+}
+.blue {
+  color: rgb(142, 142, 248);
+  opacity: 0.8;
+}
+.temp_d,
+.date {
+  font-size: 20px;
+  font-weight: 500;
+}
+.leftside {
+  float: left;
+}
+.rightside {
+  float: right;
+  width: 50%;
+}
+
+.rightside div {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
